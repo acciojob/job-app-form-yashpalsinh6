@@ -7,9 +7,60 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+<!-- the entire body must be written by student -->
+	<main>
+	 <form method="post">
+	  <section>
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" placeholder="Enter your name" required>
+	</section>
+	<section>
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" placeholder="Enter your email" required>
+	</section>
+	<section>
+		<label for="gender">Gender</label>
+		<label for="male" >Male</label>
+		<input type="radio" name="gender" id="male" required>
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female" required>
+	</section>
+	<section>
+		<label for="laptop">Laptop Brands</label>
+		<select id="laptop" required>
+        <option value="apple">Apple</option>
+        <option value="asus">Asus</option>
+        <option value="apple">HP</option>
+		</select>
+	</section>
+
+	<section>
+ <label for="portfolio">Portfolio</label>
+ <input type="url" name="portfolio" id="portfolio" placeholder="paste your portfolio link" required>
+	</section>
+
+	<section>
+		<label for="age">Age</label>
+		<input type="number" name="age" id="age" placeholder="Enter your age" required>
+	</section>
+
+	<section>
+		<label for="dob">DOB</label>
+		<input type="date" name="dob" id="dob" required>
+	</section>
+
+	<section>
+		<label for="password">Password</label>
+		<input type="password" name="passjword" id="password" placeholder="Enter your password" required>
+	</section>
+
+	<section>
+		<button type="submit" >Submit</button>
+	</section>
+	 </form>
+	</main>
     <script type="text/javascript" src="./script.js">
-</script>
+    </script>
 
 </body>
 
